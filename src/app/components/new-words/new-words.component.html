@@ -1,0 +1,6 @@
+<div class="wrapper">
+  <input #newWordRu type="text" placeholder="ru">
+  <input #newWordEn type="text" placeholder="en">
+  <button (click)="addWord(newWordRu.value, newWordEn.value); newWordRu.value=''; newWordEn.value=''">Добавить</button>
+</div>
+

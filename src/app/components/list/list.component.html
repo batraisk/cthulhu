@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <table>
+    <tr>
+      <th>Russian</th>
+      <th>English</th>
+    </tr>
+    <tr *ngFor="let word of wordsList">
+      <td>{{ word?.ru }}</td>
+      <td>{{ word?.en }}</td>
+    </tr>
+  </table>
+</div>
